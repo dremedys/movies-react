@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    background: black;
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    padding: 20px 80px 20px 80px;
+    font-family: 'Montressat';
+    justify-content: space-between;
+}
+.header a {
+    text-decoration: none;
+}

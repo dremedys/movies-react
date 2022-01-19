@@ -1,0 +1,83 @@
+.main_info{
+    background-position: center;
+    background-size: cover;
+}
+
+.main_info__inner {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 70px 0;
+    filter: initial;
+    text-align: left;
+    font-family: 'Source Sans Pro';
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+@media screen and (orientation: portrait){
+    .main_info__inner{
+        flex-direction: column;
+    }
+}
+
+.main_info__poster {
+    height: 500px;
+    margin-right: 30px;
+    border-radius: 6px;
+}
+
+.main_info__title{
+    font-weight: 800;
+    margin-bottom: 16px;
+    font-size: 1.4rem;
+}
+
+.main_info__subtitle{
+    margin-bottom: 24px;
+
+}
+
+.main_info__release{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main_info__time{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating {
+
+}
+.rating h3{
+    font-weight: 700;
+}
+.rating p {
+    font-size: 0.9rem;
+}
+
+.main_info__overview h2{
+    font-weight: 800;
+    margin-bottom: 24px;
+    font-size: 1.4rem;
+}
+.main_info__overview p{
+    margin-bottom: 24px;
+}
+
+
+.similar {
+    color: white;
+    font-family: 'Source Sans Pro';
+}
+.similar__title {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+
